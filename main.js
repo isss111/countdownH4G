@@ -7,7 +7,7 @@
   ctx.canvas.height = window.innerHeight;
 
   // YEAR 2016, MONTH-1, DAY, HOUR, MIN, SEC, MSEC
-  var countTo = new Date(2016, 4, 10, 0, 0, 0, 0);
+  var countTo = new Date(2016, 4, 13, 16, 0, 0, 0);
 
   function calcPositions() {
     var width = 100;

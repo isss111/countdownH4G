@@ -9,12 +9,36 @@
     background-image: url(bg.jpg);
     background-size: cover;
     background-position: center;
+    color: white;
+    font-family: sans-serif;
+    text-align: right;
+  }
+  .fixy {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    z-index: 999;
+  }
+  .logos {
+    margin-top: 10px;
+  }
+  .logos img {
+    float: left;
+    margin-left: 20px;
   }
   </style>
 </head>
 <body>
 
   <canvas id="countdownCanvas" width="500" height="300"></canvas>
+
+  <div class="fixy">
+    Sponsored by
+    <div class="logos">
+      <img src="//placehold.it/250x150" />
+      <img src="//placehold.it/250x150" />
+    </div>
+  </div>
 
   <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
   <script src="palette.js"></script>
